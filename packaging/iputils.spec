@@ -33,7 +33,6 @@ make %{?_smp_mflags} KERNEL_INCLUDE=$PWD \
 mkdir -p $RPM_BUILD_ROOT/%_sbindir
 mkdir -p $RPM_BUILD_ROOT/%_bindir
 install arping		$RPM_BUILD_ROOT/%{_sbindir}
-install ifenslave	$RPM_BUILD_ROOT/%{_sbindir}
 install clockdiff	$RPM_BUILD_ROOT/%{_sbindir}
 install rdisc		$RPM_BUILD_ROOT/%{_sbindir}/in.rdisc
 install tracepath	$RPM_BUILD_ROOT/%{_sbindir}
