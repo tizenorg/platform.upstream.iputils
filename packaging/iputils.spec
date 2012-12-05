@@ -44,7 +44,6 @@ install ipg			$RPM_BUILD_ROOT/%{_bindir}
 %files
 %defattr(-,root,root)
 %{_sbindir}/arping
-%{_sbindir}/ifenslave
 %{_sbindir}/clockdiff
 %verify(not mode caps) %attr(4755,root,root) %{_bindir}/ping
 %verify(not mode caps) %attr(4755,root,root) %{_bindir}/ping6
