@@ -9,7 +9,7 @@ BuildRequires:  libcap-devel
 Summary:        IPv4 and IPv6 Networking Utilities
 License:        BSD-3-Clause ; GPL-2.0+
 Group:          Productivity/Networking/Other
-Version:        s20101006
+Version:        s20121126
 Release:        0
 Url:            http://www.skbuff.net/iputils
 Source:         http://www.skbuff.net/iputils/iputils-%{version}.tar.bz2
