@@ -13,6 +13,7 @@ Version:        s20121126
 Release:        0
 Url:            http://www.skbuff.net/iputils
 Source:         http://www.skbuff.net/iputils/iputils-%{version}.tar.bz2
+Source1001: 	iputils.manifest
 
 %description
 This package contains some small network tools for IPv4 and IPv6 like
@@ -20,6 +21,7 @@ rdisc, ping6, traceroute6, tracepath, and tracepath6.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 mkdir linux
 touch linux/autoconf.h
 
@@ -42,6 +44,7 @@ install ping6		$RPM_BUILD_ROOT/%{_bindir}
 install ipg			$RPM_BUILD_ROOT/%{_bindir}
 
 %files
+%manifest %{name}.manifest
 %defattr(-,root,root)
 %{_sbindir}/arping
 %{_sbindir}/clockdiff
