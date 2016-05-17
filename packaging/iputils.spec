@@ -4,7 +4,7 @@ Name:           iputils
 BuildRequires:  libopenssl-devel
 #BuildRequires:  opensp
 #BuildRequires:  perl-SGMLS
-BuildRequires:  sysfsutils-devel
+#BuildRequires:  sysfsutils-devel
 BuildRequires:  libcap-devel
 Summary:        IPv4 and IPv6 Networking Utilities
 License:        BSD-3-Clause ; GPL-2.0+
